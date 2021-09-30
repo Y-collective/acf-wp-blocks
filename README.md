@@ -5,10 +5,17 @@ on [this article](https://github.com/MWDelaney/sage-acf-wp-blocks) by [MWDelaney
 
 ## Installation
 
-Run the following in your theme directory:
+Add this to the composer.json:
 
-```sh
-composer require "y-collective/acf-gutenberg-blocks"
+```json
+"y-collective/acf-wp-blocks": "dev-master"
+        
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Y-collective/acf-wp-blocks"
+    }
+]
 ```
 
 ## Creating blocks
